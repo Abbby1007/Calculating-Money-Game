@@ -32,7 +32,7 @@ function level1Q2(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 3.87;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q3()"> Question3 </button>`
@@ -62,7 +62,7 @@ function level1Q3(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 2.6;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q4()"> Question4 </button>`
@@ -92,7 +92,7 @@ function level1Q4(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 5.95;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q5()"> Question5 </button>`
@@ -124,7 +124,7 @@ function level1Q5(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 6.92;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q6()"> Question6 </button>`
@@ -157,7 +157,7 @@ function level1Q6(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 6.21;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q7()"> Question7 </button>`
@@ -189,7 +189,7 @@ function level1Q7(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 5.92;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q8()"> Question8 </button>`
@@ -221,7 +221,7 @@ function level1Q8(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 3.11;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q9()"> Question9 </button>`
@@ -248,12 +248,12 @@ function level1Q9(){
   document.getElementById("questionTitle").innerHTML= `Question 9`
 
   // Question
-  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have  pennies, 2 nickels, 10 dimes, 6 quarters, and 9 fifty-cents... . How much money do I have?` 
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 9 pennies, 2 nickels, 10 dimes, 6 quarters, and 9 fifty-cents... . How much money do I have?` 
 
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 7.19;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Question10 </button>`
@@ -285,7 +285,7 @@ function level1Q10(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 'hello';
+    var correct = 7.65;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Question10 </button>`
@@ -298,5 +298,5 @@ function level1Q10(){
 // LEVEL 1 QUESTION 10 END
 
 function level1End(){
-  
+   document.getElementById("display").innerHTML=` <b> Boss :</b> You did a great job today, get soem rest because, tommorow is gonna be alot more challenging <br> <a href="level2.html"><button> Day 2 (Level 2) </button> </a>`
 }
