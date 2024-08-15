@@ -1,6 +1,7 @@
 
 // LEVEL 1 QUESTION 1 START
 function level1Q1(){
+
   var input = document.getElementById("answerInput").value;
   
   console.log(input)
@@ -17,7 +18,10 @@ if(input == correct){
 // LEVEL 1 QUESTION 1 END
 // LEVEL 1 QUESTION 2 START
 function level1Q2(){
-  document.getElementById("question").textContent = `Question 2` 
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+  
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have _ pennies, _ nickels, _ dimes, _quarters, and _ fifty-cents... . How much money do I have?` 
   
   var input = document.getElementById("answerInput").value;
 
