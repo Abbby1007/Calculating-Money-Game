@@ -95,8 +95,6 @@ function level3Q4(){
 
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 12 pennies, 5 nickels, 17 dimes, 12 quarters, and 6 fifty-cents... . How much money do I have? ` 
 
-
-
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
@@ -125,14 +123,12 @@ function level3Q5(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   document.getElementById("questionTitle").innerHTML= `Customer 5 (Question 5)`
 
-  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have _ pennies, _ nickels, _ dimes, _ quarters, and _ fifty-cents... . How much money do I have? ` 
-
-
-
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 1 pennies, 11 nickels, 16 dimes, 7 quarters, and 11 fifty-cents... . How much money do I have? ` 
+  
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = "hello";
+    var correct = 9.41;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3Q6()"> Customer 6 </button>`
@@ -145,3 +141,93 @@ function level3Q5(){
 }
 
 // DAY 3 (LEVEL 3)  CUSTOMER 5 (QUESTION 5) END
+
+// DAY 3 (LEVEL 3)  CUSTOMER 6 (QUESTION 6) START
+function level3Q6(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 6 (Question 6)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 7 pennies, 5 nickels, 15 dimes, 14 quarters, and 5 fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 7.82;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3Q7()"> Customer 7 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level3Q7()"> Submit</button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+
+// DAY 3 (LEVEL 3)  CUSTOMER 6 (QUESTION 6) END
+
+// DAY 3 (LEVEL 3)  CUSTOMER 7 (QUESTION 7) START
+function level3Q7(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 7 (Question 7)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 10 pennies, 11 nickels, 14 dimes, 1 quarters, and 15 fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 9.8;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3Q8()"> Customer 8 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level3Q8()"> Submit</button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+
+// DAY 3 (LEVEL 3)  CUSTOMER 7 (QUESTION 7) END
+
+// DAY 3 (LEVEL 3)  CUSTOMER 8 (QUESTION 8) START
+function level3Q8(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 8 (Question 8)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have _ pennies, _ nickels, _ dimes, _ quarters, and _ fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = "hello";
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3Q9()"> Customer 9 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level3Q9()"> Submit</button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+
+// DAY 3 (LEVEL 3)  CUSTOMER 8 (QUESTION 8) END
