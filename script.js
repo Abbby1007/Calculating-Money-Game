@@ -8,7 +8,7 @@ function level1Q1(){
   var correct = 5.6 ;
   
 if(input == correct){
-  document.getElementById("display").innerHTML=` <b> Frank:</b> Thank you!!!! ❤️ <br><button onclick="level1Q2()"> Question 2 </button>`
+  document.getElementById("display").innerHTML=` <b> Howard:</b> Thank you!!!! ❤️ <br><button onclick="level1Q2()"> Customer 2 </button>`
   document.getElementById("submitButton").innerHTML = `<button onclick="level1Q2()"> Submit</button>`
   
 }
@@ -25,7 +25,7 @@ function level1Q2(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   document.getElementById("questionTitle").innerHTML= `Customer 2 (Question 2)`
 
@@ -39,7 +39,7 @@ function level1Q2(){
     var correct = 3.87;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q3()"> Question 3 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q3()"> Customer 3 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q3()"> Submit</button>`
 
   }
@@ -57,7 +57,7 @@ function level1Q3(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   
   // Question title
@@ -71,7 +71,7 @@ function level1Q3(){
     var correct = 2.6;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q4()"> Question 4 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q4()"> Customer 4 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q4()"> Submit</button>`
   }
     else {
@@ -87,7 +87,7 @@ function level1Q4(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -102,7 +102,7 @@ function level1Q4(){
     var correct = 5.95;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q5()"> Question 5 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q5()"> Customer 5 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q5()"> Submit</button>`
   }
     else {
@@ -120,7 +120,7 @@ function level1Q5(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -135,7 +135,7 @@ function level1Q5(){
     var correct = 6.92;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q6()"> Question 6 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q6()"> Customer 6 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q6()"> Submit</button>`
   }
     else {
@@ -154,7 +154,7 @@ function level1Q6(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -169,7 +169,7 @@ function level1Q6(){
     var correct = 6.21;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q7()"> Question 7 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q7()"> Customer 7 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q7()"> Submit</button>`
   }
     else {
@@ -187,7 +187,7 @@ function level1Q7(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -202,7 +202,7 @@ function level1Q7(){
     var correct = 5.92;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q8()"> Question 8 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q8()"> Customer 8 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q8()"> Submit</button>`
   }
     else {
@@ -220,7 +220,7 @@ function level1Q8(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -235,7 +235,7 @@ function level1Q8(){
     var correct = 3.11;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q9()"> Question 9 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q9()"> Customer 9 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q9()"> Submit</button>`
   }
     else {
@@ -253,7 +253,7 @@ function level1Q9(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -268,7 +268,7 @@ function level1Q9(){
     var correct = 7.19;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Question 10 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Customer 10 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q10()"> Submit</button>`
   }
     else {
@@ -286,7 +286,7 @@ function level1Q10(){
    const randomName = name[Math.floor(Math.random() * name.length)];
 
   //Compliments
-  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
+  const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
@@ -301,7 +301,7 @@ function level1Q10(){
     var correct = 7.65;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1End()"> Finish level 1 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1End()"> Finish Day 1 </button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -311,5 +311,5 @@ function level1Q10(){
 // LEVEL 1 QUESTION 10 END
 
 function level1End(){
-   document.getElementById("display").innerHTML=` <b> Boss :</b> You did a great job today, get some rest because, tommorow is gonna be alot more challenging <br> <a href="level2.html"><button> Day 2 (Level 2) </button> </a>`
+   document.getElementById("display").innerHTML=` <b> Boss :</b> You did a great job today, get some rest because, tommorow is gonna be alot more challenging <br> <a href="level,,.html"><button> Day 2 (Level 2) </button> </a>`
 }
