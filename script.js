@@ -8,7 +8,9 @@ function level1Q1(){
   var correct = 5.6 ;
   
 if(input == correct){
-  document.getElementById("display").innerHTML=` <b> Frank:</b> Thank you!!!! ❤️ <br><button onclick="level1Q2()"> Question2 </button>`
+  document.getElementById("display").innerHTML=` <b> Frank:</b> Thank you!!!! ❤️ <br><button onclick="level1Q2()"> Question 2 </button>`
+  document.getElementById("submitButton").innerHTML = `<button onclick="level1Q2()"> Submit</button>`
+  
 }
   else {
     document.getElementById("display").innerHTML=`Try Again`
@@ -25,11 +27,11 @@ function level1Q2(){
   //Compliments
   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!",];
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
-  document.getElementById("questionTitle").innerHTML= `Question 2`
+  document.getElementById("questionTitle").innerHTML= `Customer 2 (Question 2)`
 
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 2 pennies, 1 nickels, 8 dimes, 6 quarters, and 3 fifty-cents... . How much money do I have? ` 
 
-  document.getElementById("submitButton").innerHTML = `<button onclick="level1Q3()"> Submit</button>`
+
   
   var input = document.getElementById("answerInput").value;
 
@@ -37,8 +39,9 @@ function level1Q2(){
     var correct = 3.87;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q3()"> Question3 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q3()"> Question 3 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="level1Q3()"> Submit</button>`
+
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -58,7 +61,7 @@ function level1Q3(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 3`
+  document.getElementById("questionTitle").innerHTML= `Customer 3 (Question 3)`
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 5 pennies, 4 nickels, 6 dimes, 3 quarters, and 2 fifty-cents... . How much money do I have?` 
 
@@ -68,7 +71,8 @@ function level1Q3(){
     var correct = 2.6;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q4()"> Question4 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q4()"> Question 4 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q4()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -87,7 +91,7 @@ function level1Q4(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 4`
+  document.getElementById("questionTitle").innerHTML= `Customer 4 (Question 4)`
   
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 10 pennies, 4 nickels, 9 dimes, 3 quarters, and 8 fifty-cents... . How much money do I have?` 
@@ -98,7 +102,8 @@ function level1Q4(){
     var correct = 5.95;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q5()"> Question5 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q5()"> Question 5 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q5()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -119,7 +124,7 @@ function level1Q5(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 5`
+  document.getElementById("questionTitle").innerHTML= `Customer 5 (Question 5)`
 
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 7 pennies, 6 nickels, 8 dimes, 5 quarters, and 9 fifty-cents... . How much money do I have?` 
@@ -130,7 +135,8 @@ function level1Q5(){
     var correct = 6.92;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q6()"> Question6 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q6()"> Question 6 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q6()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -152,7 +158,7 @@ function level1Q6(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 6`
+  document.getElementById("questionTitle").innerHTML= `Customer 6 (Question 6)`
 
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 6 pennies, 7 nickels, 3 dimes, 8 quarters, and 7 fifty-cents... . How much money do I have?` 
@@ -163,7 +169,8 @@ function level1Q6(){
     var correct = 6.21;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q7()"> Question7 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q7()"> Question 7 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q7()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -184,7 +191,7 @@ function level1Q7(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 7`
+  document.getElementById("questionTitle").innerHTML= `Customer 7 (Question 7)`
 
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 2 pennies, 9 nickels, 7 dimes, 3 quarters, and 8 fifty-cents... . How much money do I have?` 
@@ -195,7 +202,8 @@ function level1Q7(){
     var correct = 5.92;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q8()"> Question8 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q8()"> Question 8 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q8()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -216,7 +224,7 @@ function level1Q8(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 8`
+  document.getElementById("questionTitle").innerHTML= `Customer 8 (Question 8)`
 
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 6 pennies, 8 nickels, 4 dimes, 5 quarters, and 2 fifty-cents... . How much money do I have?` 
@@ -227,7 +235,8 @@ function level1Q8(){
     var correct = 3.11;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q9()"> Question9 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q9()"> Question 9 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q9()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -248,7 +257,7 @@ function level1Q9(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 9`
+  document.getElementById("questionTitle").innerHTML= `Customer 9 (Question 9)`
 
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 9 pennies, 2 nickels, 10 dimes, 6 quarters, and 9 fifty-cents... . How much money do I have?` 
@@ -259,7 +268,8 @@ function level1Q9(){
     var correct = 7.19;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Question10 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Question 10 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q10()"> Submit</button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -280,7 +290,7 @@ function level1Q10(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   // Question title
-  document.getElementById("questionTitle").innerHTML= `Question 10`
+  document.getElementById("questionTitle").innerHTML= `Customer 10 (Question 10)`
 
   // Question
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 5 pennies, 6 nickels, 8 dimes, 10 quarters, and 8 fifty-cents... . How much money do I have?` 
@@ -291,7 +301,7 @@ function level1Q10(){
     var correct = 7.65;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Question10 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1End()"> Finish level 1 </button>`
   }
     else {
       document.getElementById("display").innerHTML=`Try Again`
@@ -301,5 +311,5 @@ function level1Q10(){
 // LEVEL 1 QUESTION 10 END
 
 function level1End(){
-   document.getElementById("display").innerHTML=` <b> Boss :</b> You did a great job today, get soem rest because, tommorow is gonna be alot more challenging <br> <a href="level2.html"><button> Day 2 (Level 2) </button> </a>`
+   document.getElementById("display").innerHTML=` <b> Boss :</b> You did a great job today, get some rest because, tommorow is gonna be alot more challenging <br> <a href="level2.html"><button> Day 2 (Level 2) </button> </a>`
 }
