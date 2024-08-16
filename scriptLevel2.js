@@ -222,14 +222,14 @@ function level2Q8(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   document.getElementById("questionTitle").innerHTML= `Customer 8 (Question 8)`
 
-  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have _ pennies, _ nickels, _ dimes, _ quarters, and _ fifty-cents... . How much money do I have? ` 
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 5 pennies, 14 nickels, 4 dimes, 10 quarters, and 13 fifty-cents... . How much money do I have? ` 
 
 
 
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = "hello";
+    var correct = 10.15;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level2Q9()"> Customer 9 </button>`
@@ -254,14 +254,14 @@ function level2Q9(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   document.getElementById("questionTitle").innerHTML= `Customer 9 (Question 9)`
 
-  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have _ pennies, _ nickels, _ dimes, _ quarters, and _ fifty-cents... . How much money do I have? ` 
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 8 pennies, 5 nickels, 4 dimes, 8 quarters, and 14 fifty-cents... . How much money do I have? ` 
 
 
 
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = "hello";
+    var correct = 9.73;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level2Q10()"> Customer 10 </button>`
@@ -286,14 +286,14 @@ function level2Q10(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   document.getElementById("questionTitle").innerHTML= `Customer 10 (Question 10)`
 
-  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have _ pennies, _ nickels, _ dimes, _ quarters, and _ fifty-cents... . How much money do I have? ` 
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 10 pennies, 1 nickels, 15 dimes, 12 quarters, and 9 fifty-cents... . How much money do I have? ` 
 
 
 
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = "hello";
+    var correct = 9.15;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level2End()"> Finish Day 2 </button>`
