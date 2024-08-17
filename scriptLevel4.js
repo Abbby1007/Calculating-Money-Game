@@ -178,8 +178,8 @@ function level4Q6(){
 
 // DAY 4 (LEVEL 4)  CUSTOMER 6 (QUESTION 6) END
 
-// DAY 4 (LEVEL 4)  CUSTOMER 6 (QUESTION 6) START
-function level4Q6(){
+// DAY 4 (LEVEL 4)  CUSTOMER 7 (QUESTION 7) START
+function level4Q7(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -211,7 +211,7 @@ function level4Q6(){
 // DAY 4 (LEVEL 4)  CUSTOMER 7 (QUESTION 7) END
 
 // DAY 4 (LEVEL 4)  CUSTOMER 8 (QUESTION 8) START
-function level4Q6(){
+function level4Q8(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -273,3 +273,36 @@ function level4Q9(){
 }
 
 // DAY 4 (LEVEL 4)  CUSTOMER 9 (QUESTION 9) END
+
+// DAY 4 (LEVEL 4)  CUSTOMER 10 (QUESTION 10) START
+function level4Q10(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 10 (Question 10)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 2 pennies, 18 nickels, 15 dimes, 10 quarters, and 8 fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct =  8.92;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level4End()"> Finish Day 4 </button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+
+// DAY 4 (LEVEL 4)  CUSTOMER 10 (QUESTION 10) END
+
+function level4End(){
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Another Day of you being Awesome!!!  <br> <a href="levelvvvvv.html"><button> Move on to Day 5 (Level 5) </button> </a>`
+}

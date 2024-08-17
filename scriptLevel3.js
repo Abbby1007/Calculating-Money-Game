@@ -281,7 +281,7 @@ function level3Q9(){
     var correct =  6.71;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3End()"> Finish Day 3 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3End()"> Finish Day 4 </button>`
 
   }
     else {
