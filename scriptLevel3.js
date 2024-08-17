@@ -7,7 +7,7 @@ function level3Q1(){
   var correct = 11.32;
 
 if(input == correct){
-  document.getElementById("display").innerHTML=` <b> Howard:</b> Wow You're a SUPERSTAR ⭐!!!! <br><button onclick="level3Q2()"> Customer 2 </button>`
+  document.getElementById("display").innerHTML=` <b> Abigail:</b> Wow You're a SUPERSTAR ⭐!!!! <br><button onclick="level3Q2()"> Customer 2 </button>`
   document.getElementById("submitButton").innerHTML = `<button onclick="level3Q2()"> Submit</button>`
 
 }
