@@ -16,7 +16,7 @@ if(input == correct){
   }
 
 }
-// DAY 6 (LEVEL 6)  CUSTOMER 6 (QUESTION 1) END
+// DAY 6 (LEVEL 6)  CUSTOMER 1 (QUESTION 1) END
 
 // DAY 6 (LEVEL 6)  CUSTOMER 2 (QUESTION 2) START
 function level6Q2(){
