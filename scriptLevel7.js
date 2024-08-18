@@ -186,7 +186,7 @@ function level7Q7(){
 
   //Compliments
    const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
-   const randomcomp6liment = compliments[Math.floor(Math.random() * compliments.length)];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   document.getElementById("questionTitle").innerHTML= `Customer 7 (Question 7)`
 
   document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 9 pennies, 5 nickels, 13 dimes, 7 quarters, and 22 fifty-cents... . How much money do I have? ` 
