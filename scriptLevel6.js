@@ -293,7 +293,7 @@ function level6Q10(){
     var correct = 14.45 ;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level5End()"> Finish Day 6 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level6End()"> Finish Day 6 </button>`
 
   }
     else {
@@ -304,5 +304,5 @@ function level6Q10(){
 // DAY 6 (LEVEL 6)  CUSTOMER 10 (QUESTION 10) END
 
 function level6End(){
-  document.getElementById("display").innerHTML=` <b> Boss :</b> You were a Rockstar!!! Today !!!  <br> <a href="levelqqqqqqq.html"><button> Move on to Day 6 (Level 6) </button> </a>`
+  document.getElementById("display").innerHTML=` <b> Boss :</b> You were a Rockstar!!! Today !!!  <br> <a href="levelqqqqqqq.html"><button> Move on to Day 7 (Level 7) </button> </a>`
 }
