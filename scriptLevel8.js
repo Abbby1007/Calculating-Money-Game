@@ -199,8 +199,8 @@ function level8Q7(){
     var correct = 11.08;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level7Q8()"> Customer 8 </button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="level7Q8()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level8Q8()"> Customer 8 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level8Q8()"> Submit</button>`
 
   }
     else {
