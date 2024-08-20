@@ -25,10 +25,26 @@ button{
   margin: 10px
 }
 
-#start{
+#easy{
   background-color: #549C30;
+}
+
+#meidum{
+  background-color: ;
+}
+
+#hard{
+  background-color: ;
+}
+
+#extreme{
+  background-color: ;
 }
 
 #credit{
   background-color:#7FC9AA;
+}
+
+#easyTitle{
+  color:#549C30;
 }
