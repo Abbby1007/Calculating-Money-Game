@@ -26,19 +26,19 @@ button{
 }
 
 #easy{
-  background-color: #549C30;
+  background-color: #a5c90f;
 }
 
-#meidum{
-  background-color: ;
+#medium{
+  background-color: #ffce00 ;
 }
 
 #hard{
-  background-color: ;
+  background-color: #FF5733 ;
 }
 
 #extreme{
-  background-color: ;
+  background-color: #8B0000;
 }
 
 #credit{
@@ -46,5 +46,9 @@ button{
 }
 
 #easyTitle{
-  color:#549C30;
+  color:#a5c90f;
+}
+
+#mediumTitle{
+  color: ;
 }
