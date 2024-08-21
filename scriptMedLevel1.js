@@ -261,8 +261,8 @@ function level10Q9(){
     console.log(input)
     var correct = 28.82;
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level10Q10()"> Customer 10<button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="level10Q10()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level1Q10()"> Customer 10<button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="level1Q10()"> Submit</button>`
 
   }
     else {
@@ -273,7 +273,7 @@ function level10Q9(){
 // Medium  DAY 1 (LEVEL 1)  CUSTOMER 9 (QUESTION 9) End
 
 // Medium DAY 1 (LEVEL 1)  CUSTOMER 10 (QUESTION 10) START
-function level10Q10(){
+function level1Q10(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
