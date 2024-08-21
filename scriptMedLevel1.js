@@ -69,7 +69,7 @@ function medLevel1Q3(){
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 19.81;
+    var correct = 24.65;
 
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel1Q4()"> Customer 4 </button>`
