@@ -299,7 +299,7 @@ function level1Q10(){
     }
 }
 
-// DAY 10 (LEVEL 10)  CUSTOMER 10 (QUESTION 10) END
+// MED DAY 10 (LEVEL 10)  CUSTOMER 10 (QUESTION 10) END
 
 function level1End(){
   document.getElementById("display").innerHTML=` <b> Boss :</b> Good Job Today!!!!  <br> <a href="MedLeveltt.html"><button> Move on to Medium Day 2 (Level 2) </button> </a>`
