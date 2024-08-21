@@ -144,6 +144,7 @@ function medLevel1Q5(){
       document.getElementById("display").innerHTML=`Try Again`
     }
 }
+// Medium  DAY 1 (LEVEL 1)  CUSTOMER 5 (QUESTION 5) END
 
 // Medium  DAY 1 (LEVEL 1)  CUSTOMER 6 (QUESTION 6) START
 function medLevel1Q6(){
