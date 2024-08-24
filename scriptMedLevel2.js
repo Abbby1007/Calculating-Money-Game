@@ -230,8 +230,8 @@ function medLevel2Q8(){
     var correct = 20.38;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level20Q9()"> Customer 9 </button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="level20Q9()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medlevel20Q9()"> Customer 9 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="medlevel20Q9()"> Submit</button>`
 
   }
     else {
@@ -241,8 +241,8 @@ function medLevel2Q8(){
 
 // Medium  DAY 2 (LEVEL 2)  CUSTOMER 8 (QUESTION 8) END
 
-// Medium  DAY 1 (LEVEL 1)  CUSTOMER 9 (QUESTION 9) START
-function level10Q9(){
+// Medium  DAY 2 (LEVEL 2)  CUSTOMER 9 (QUESTION 9) START
+function medlevel20Q9(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -261,8 +261,8 @@ function level10Q9(){
     console.log(input)
     var correct = 14.38;
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level2Q10()"> Customer 10<button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="level2Q10()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medlevel2Q10()"> Customer 10<button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="medlevel2Q10()"> Submit</button>`
 
   }
     else {
@@ -272,8 +272,8 @@ function level10Q9(){
 
 // Medium  DAY 2 (LEVEL 2)  CUSTOMER 9 (QUESTION 9) End
 
-// Medium DAY 1 (LEVEL 1)  CUSTOMER 10 (QUESTION 10) START
-function level1Q10(){
+// Medium DAY 2 (LEVEL 2)  CUSTOMER 10 (QUESTION 10) START
+function medlevel2Q10(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -291,7 +291,7 @@ function level1Q10(){
     var correct = 23.22 ;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level2End()"> Finish Day 2 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level2End()"> Finish Day 3 </button>`
 
   }
     else {
@@ -299,8 +299,8 @@ function level1Q10(){
     }
 }
 
-// MED  DAY 1 (LEVEL 1)  CUSTOMER 10 (QUESTION 10) END
+// MED  DAY 2 (LEVEL 2)  CUSTOMER 10 (QUESTION 10) END
 
 function level2End(){
-  document.getElementById("display").innerHTML=` <b> Boss :</b> GREAT WORK TODAYYY! <br> <a href="MedLevelrrr.html"><button> Move on to Medium Day 3 (Level 2) </button> </a>`
+  document.getElementById("display").innerHTML=` <b> Boss :</b> GREAT WORK TODAYYY! <br> <a href="MedLevelrrr.html"><button> Move on to Medium Day 3 (Level 3) </button> </a>`
 }
