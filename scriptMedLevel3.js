@@ -7,7 +7,7 @@ function medLevel3Q1(){
   var correct = 20.01;
 
 if(input == correct){
-  document.getElementById("display").innerHTML=` <b> Diego:</b> Thank you Math Wiz 🔢!!! <br><button onclick="medLevel3Q2()"> Customer 2 </button>`
+  document.getElementById("display").innerHTML=` <b> Carol:</b> Thank you Math Wiz 🔢!!! <br><button onclick="medLevel3Q2()"> Customer 2 </button>`
   document.getElementById("submitButton").innerHTML = `<button onclick="medLevel3Q2()"> Submit</button>`
 
 }
