@@ -250,14 +250,14 @@ function medLevel7Q9(){
    const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
   docum7nt.getElementById("questionTitle").innerHTML= `Customer 9 (Question 9)`
 
-  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 23 pennies, 26 nickels, 36 dimes, 12 quarters, and 24 fifty-cents... . How much money do I have? ` 
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 15 pennies, 27 nickels, 24 dimes, 33 quarters, and 22 fifty-cents... . How much money do I have? ` 
 
 
 
   var input = document.getElementById("answerInput").value;
 
     console.log(input)
-    var correct = 26.02;
+    var correct = 23.15;
   if(input == correct){
      document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel7Q10()"> Customer 10<button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="medLevel7Q10()"> Submit</button>`
@@ -269,3 +269,36 @@ function medLevel7Q9(){
 }
 
 // Medium  DAY 7 (LEVEL 7)  CUSTOMER 9 (QUESTION 9) End
+
+// Medium DAY 7 (LEVEL 7)  CUSTOMER 10 (QUESTION 10) START
+function medLevel7Q10(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 10 (Question 10)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 24 pennies, 16 nickels, 12 dimes, 16 quarters, and 30 fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 21.24 ;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel7End()"> Finish Day 7 </button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+
+// MED  DAY 7 (LEVEL 7)  CUSTOMER 10 (QUESTION 10) END
+
+function medLevel7End(){
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Congratulations on Completing Day 7 <br> <a href="MedLeveluuuuuuuu.html"><button> Move on to Medium Day 8 (Level 8) </button> </a>`
+}
