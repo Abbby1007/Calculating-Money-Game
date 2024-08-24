@@ -302,5 +302,5 @@ function medlevel4Q10(){
 // MED  DAY 4 (LEVEL 4)  CUSTOMER 10 (QUESTION 10) END
 
 function level4End(){
-  document.getElementById("display").innerHTML=` <b> Boss :</b> Great Job Today!!! <br> <a href="MedLevelkkkk.html"><button> Move on to Medium Day 5 (Level 5) </button> </a>`
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Good Job !!! <br> <a href="MedLevelkkkk.html"><button> Move on to Medium Day 5 (Level 5) </button> </a>`
 }
