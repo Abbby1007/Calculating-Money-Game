@@ -209,8 +209,8 @@ function medLevel3Q7(){
 
 // Medium  DAY 3 (LEVEL 3)  CUSTOMER 7 (QUESTION 7) END
 
-// Medium  DAY 2 (LEVEL 2)  CUSTOMER 8 (QUESTION 8) START
-function medLevel2Q8(){
+// Medium  DAY 3 (LEVEL 3)  CUSTOMER 8 (QUESTION 8) START
+function medLevel3Q8(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
