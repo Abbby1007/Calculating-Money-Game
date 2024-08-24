@@ -230,8 +230,8 @@ function medLevel3Q8(){
     var correct = 20.38;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level30Q9()"> Customer 9 </button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="level30Q9()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel3Q9()"> Customer 9 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="medLevel3Q9()"> Submit</button>`
 
   }
     else {
@@ -242,7 +242,7 @@ function medLevel3Q8(){
 // Medium  DAY 3 (LEVEL 3)  CUSTOMER 8 (QUESTION 8) END
 
 // Medium  DAY 3 (LEVEL 3)  CUSTOMER 9 (QUESTION 9) START
-function medlevel3Q9(){
+function medLevel3Q9(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -261,8 +261,8 @@ function medlevel3Q9(){
     console.log(input)
     var correct = 19.72;
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level3Q10()"> Customer 10<button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="level3Q10()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel3Q10()"> Customer 10<button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="medLevel3Q10()"> Submit</button>`
 
   }
     else {
@@ -273,7 +273,7 @@ function medlevel3Q9(){
 // Medium  DAY 3 (LEVEL 3)  CUSTOMER 9 (QUESTION 9) End
 
 // Medium DAY 3 (LEVEL 3)  CUSTOMER 10 (QUESTION 10) START
-function medlevel3Q10(){
+function medLevel3Q10(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];

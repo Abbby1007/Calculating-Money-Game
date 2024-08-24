@@ -230,7 +230,7 @@ function medLevel2Q8(){
     var correct = 20.38;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medlevel20Q9()"> Customer 9 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel2Q9()"> Customer 9 </button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="medlevel20Q9()"> Submit</button>`
 
   }
@@ -242,7 +242,7 @@ function medLevel2Q8(){
 // Medium  DAY 2 (LEVEL 2)  CUSTOMER 8 (QUESTION 8) END
 
 // Medium  DAY 2 (LEVEL 2)  CUSTOMER 9 (QUESTION 9) START
-function medlevel20Q9(){
+function medLevel2Q9(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -261,7 +261,7 @@ function medlevel20Q9(){
     console.log(input)
     var correct = 14.38;
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medlevel2Q10()"> Customer 10<button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="medLevel2Q10()"> Customer 10<button>`
     document.getElementById("submitButton").innerHTML = `<button onclick="medlevel2Q10()"> Submit</button>`
 
   }
@@ -273,7 +273,7 @@ function medlevel20Q9(){
 // Medium  DAY 2 (LEVEL 2)  CUSTOMER 9 (QUESTION 9) End
 
 // Medium DAY 2 (LEVEL 2)  CUSTOMER 10 (QUESTION 10) START
-function medlevel2Q10(){
+function medLevel2Q10(){
  // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
