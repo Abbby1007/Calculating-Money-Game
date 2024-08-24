@@ -271,3 +271,36 @@ function medlevel4Q9(){
 }
 
 // Medium  DAY 4 (LEVEL 4)  CUSTOMER 9 (QUESTION 9) End
+
+// Medium DAY 4 (LEVEL 4)  CUSTOMER 10 (QUESTION 10) START
+function medlevel4Q10(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 10 (Question 10)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 26 pennies, 19 nickels, 24 dimes, 21 quarters, and 34 fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 24.86 ;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="level4End()"> Finish Day 4 </button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+
+// MED  DAY 4 (LEVEL 4)  CUSTOMER 10 (QUESTION 10) END
+
+function level4End(){
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Great Job Today!!! <br> <a href="MedLevelkkkk.html"><button> Move on to Medium Day 5 (Level 5) </button> </a>`
+}
