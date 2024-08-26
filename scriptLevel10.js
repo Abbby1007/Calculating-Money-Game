@@ -302,6 +302,6 @@ function level10Q10(){
 
 // DAY 10 (LEVEL 10)  CUSTOMER 10 (QUESTION 10) END
 
-function level9End(){
+function level10End(){
   document.getElementById("display").innerHTML=` <b> Boss :</b> One more day until your Promotion  <br> <a href="easyModeComplete.html"><button> Complete Easy Mode  </button> </a>`
 }
