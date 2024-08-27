@@ -18,7 +18,7 @@ if(input == correct){
 }
 // Hard  DAY 4 (LEVEL 4)  CUSTOMER 1 (QUESTION 1) END
 
-// Hard DAY 3 (LEVEL 3)  CUSTOMER 2 (QUESTION 2) START
+// Hard DAY 4 (LEVEL 4)  CUSTOMER 2 (QUESTION 2) START
 
 function hardLevel4Q2(){
   // Names
