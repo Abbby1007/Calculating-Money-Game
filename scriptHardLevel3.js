@@ -273,3 +273,9 @@ function hardLevel3Q9(){
     }
 }
 // Hard  Day 3 (LEVEL 3)  CUSTOMER 9 (QUESTION 9) END
+
+// Hard  DAY 3 (LEVEL 3)  CUSTOMER 10 (QUESTION 10) END
+
+function hardLevel3End(){
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Congratulations on Completing Day 3 <br> <a href="hardLevelgggg.html"><button> Move on to Hard Day 4 </button> </a>`
+}
