@@ -177,3 +177,99 @@ function hardLevel3Q6(){
     }
 }
 // Hard  Day 3 (LEVEL 3)  CUSTOMER 6 (QUESTION 6) END
+
+// Hard DAY 3 (LEVEL 3)  CUSTOMER 7 (QUESTION 7) START
+
+function hardLevel3Q7(){
+  // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 7 (Question 7)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 20 pennies, 28 nickels, 36 dimes, 16 quarters, and 30 fifty-cents... . How much money do I have? ` 
+
+
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 24.20;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel3Q8()"> Customer 8 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="hardLevel3Q8()"> Submit</button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+// Hard  Day 3 (LEVEL 3)  CUSTOMER 7 (QUESTION 7) END
+
+// Hard DAY 3 (LEVEL 3)  CUSTOMER 8 (QUESTION 8) START
+
+function hardLevel3Q8(){
+  // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 8 (Question 8)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 26 pennies, 17 nickels, 29 dimes, 31 quarters, and 15 fifty-cents... . How much money do I have? ` 
+
+
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 19.26;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel3Q9()"> Customer 9 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="hardLevel3Q9()"> Submit</button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+// Hard  Day 3 (LEVEL 3)  CUSTOMER 8 (QUESTION 8) END
+
+// Hard DAY 3 (LEVEL 3)  CUSTOMER 9 (QUESTION 9) START
+
+function hardLevel3Q9(){
+  // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 9 (Question 9)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 21 pennies, 19 nickels, 24 dimes, 16 quarters, and 27 fifty-cents... . How much money do I have? ` 
+
+
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 21.06;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel3Q10()"> Customer 10 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="hardLevel3Q10()"> Submit</button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+// Hard  Day 3 (LEVEL 3)  CUSTOMER 9 (QUESTION 9) END
