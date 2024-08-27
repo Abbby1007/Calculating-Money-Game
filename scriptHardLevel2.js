@@ -273,3 +273,11 @@ function hardLevel2Q9(){
     }
 }
 // Hard  Day 2 (LEVEL 2)  CUSTOMER 9 (QUESTION 9) END
+
+
+
+// Hard  DAY 2 (LEVEL 2)  CUSTOMER 10 (QUESTION 10) END
+
+function hardLevel2End(){
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Congratulations on Completing Day 2 <br> <a href="hardLevelppp.html"><button> Move on to Hard Day 3 </button> </a>`
+}
