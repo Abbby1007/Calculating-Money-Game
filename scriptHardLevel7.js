@@ -7,7 +7,7 @@ function hardLevel7Q1(){
   var correct = 17.38;
 
 if(input == correct){
-  document.getElementById("display").innerHTML=` <b> Jasmine:</b> Thank you Math Wiz 🔢!!! <br><button onclick="hardLevel7Q2()"> Customer 2 </button>`
+  document.getElementById("display").innerHTML=` <b> Dora:</b> Thank you Math Wiz 🔢!!! <br><button onclick="hardLevel7Q2()"> Customer 2 </button>`
   document.getElementById("submitButton").innerHTML = `<button onclick="hardLevel7Q2()"> Submit</button>`
 
 }
