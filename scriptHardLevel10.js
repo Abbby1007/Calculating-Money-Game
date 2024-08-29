@@ -273,3 +273,35 @@ function hardLevel10Q9(){
     }
 }
 // Hard  DAY 10 (LEVEL 10)  CUSTOMER 9 (QUESTION 9) END
+
+// Hard DAY 10 (LEVEL 10)  CUSTOMER 10 (QUESTION 10) START
+function hardLevel10Q10(){
+ // Names
+  const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
+   const randomName = name[Math.floor(Math.random() * name.length)];
+
+  //Compliments
+   const compliments = ["Wow You're a SUPERSTAR ⭐!!!!", "Your Awesome ❤️!!!!","Thank you Math Wiz 🔢!!!","Thank you ❤️!!!!", " I appreaciate this❤️!!!!❤️"];
+   const randomcompliment = compliments[Math.floor(Math.random() * compliments.length)];
+  document.getElementById("questionTitle").innerHTML= `Customer 10 (Question 10)`
+
+  document.getElementById("question").innerHTML= `<b> ${randomName} </b> I have 28 pennies, 45 nickels, 30 dimes, 18 quarters, and 14 fifty-cents... . How much money do I have? ` 
+
+  var input = document.getElementById("answerInput").value;
+
+    console.log(input)
+    var correct = 17.03 ;
+
+  if(input == correct){
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel10End()"> Finish Day 10 </button>`
+
+  }
+    else {
+      document.getElementById("display").innerHTML=`Try Again`
+    }
+}
+// Hard  DAY 10 (LEVEL 10)  CUSTOMER 10 (QUESTION 10) END
+
+function hardLevel10End(){
+  document.getElementById("display").innerHTML=` <b> Boss :</b> Congratulations on Completing Day 10 <br> <a href="congratulationsHard.html"><button> Finish Hard mode </button> </a>`
+}
