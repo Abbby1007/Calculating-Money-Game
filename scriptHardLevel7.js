@@ -168,8 +168,8 @@ function hardLevel6Q6(){
     var correct = 18.88;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel6Q7()"> Customer 7 </button>`
-    document.getElementById("submitButton").innerHTML = `<button onclick="hardLevel4Q7()"> Submit</button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel7Q7()"> Customer 7 </button>`
+    document.getElementById("submitButton").innerHTML = `<button onclick="hardLevel7Q7()"> Submit</button>`
 
   }
     else {
