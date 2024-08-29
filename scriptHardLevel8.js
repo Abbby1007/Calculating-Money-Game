@@ -293,7 +293,7 @@ function hardLevel8Q10(){
     var correct = 26.90 ;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel8End()"> Finish Day 7 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel8End()"> Finish Day 8 </button>`
 
   }
     else {
