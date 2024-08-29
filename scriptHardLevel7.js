@@ -146,9 +146,9 @@ function hardLevel7Q5(){
 }
 // Hard  DAY 7 (LEVEL 7)  CUSTOMER 5 (QUESTION 5) END
 
-// Hard DAY 6 (LEVEL 6)  CUSTOMER 6 (QUESTION 6) START
+// Hard DAY 7 (LEVEL 7)  CUSTOMER 6 (QUESTION 6) START
 
-function hardLevel6Q6(){
+function hardLevel7Q6(){
   // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
@@ -293,7 +293,7 @@ function hardLevel7Q10(){
     var correct = 21.84 ;
 
   if(input == correct){
-     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel6End()"> Finish Day 7 </button>`
+     document.getElementById("display").innerHTML=` <b> ${randomName}:</b> ${randomcompliment} <br><button onclick="hardLevel7End()"> Finish Day 7 </button>`
 
   }
     else {

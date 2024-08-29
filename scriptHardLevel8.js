@@ -146,9 +146,9 @@ function hardLevel8Q5(){
 }
 // Hard  DAY 8 (LEVEL 8)  CUSTOMER 5 (QUESTION 5) END
 
-// Hard DAY 6 (LEVEL 6)  CUSTOMER 6 (QUESTION 6) START
+// Hard DAY 8 (LEVEL 8)  CUSTOMER 6 (QUESTION 6) START
 
-function hardLevel6Q6(){
+function hardLevel8Q6(){
   // Names
   const name = ["Stanley", "Trevor", "Eva", "Poppy","Darren","Jake","Selena","Ariana","Leonard","Troy","Makenzie","Logan","Emma","Abigail","Keana","Isabella","Skyla","Zachary","Jude","Hailey","Emily","Kayla","Jessica","Carol","Alex","Noah","Sadie","Michael","Julia","Sarah","Ashley","Madison","Howard","Sheryl","Adriyel"]
    const randomName = name[Math.floor(Math.random() * name.length)];
