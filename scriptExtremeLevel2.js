@@ -7,7 +7,7 @@ function extremeLevel2Q1(){
   var correct = 27.17;
 
 if(input == correct){
-  document.getElementById("display").innerHTML=` <b> Grace:</b> Thank you Math Wiz 🔢!!! <br><button onclick="extremeLevel2Q2()"> Customer 2 </button>`
+  document.getElementById("display").innerHTML=` <b> Mina:</b> Thank you Math Wiz 🔢!!! <br><button onclick="extremeLevel2Q2()"> Customer 2 </button>`
   document.getElementById("submitButton").innerHTML = `<button onclick="extremeLevel2Q2()"> Submit</button>`
 
 }
